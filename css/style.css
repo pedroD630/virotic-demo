@@ -2,18 +2,34 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #000B33;
+    
+    
 }
-section{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*ajuste de fontes*/
+h1, h2, h3, li, p, span{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+    color: #000B33;
 }
+
+section h1{
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+}
+
+section .virus-container .virus-box h3, .sobre-container .sobre-box h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
 
 /*menu*/
 .header {
-    width: 100%;
+    width: 100vw;
+    background-color: #E8AA00;
 }
 .menu {
     
@@ -24,7 +40,7 @@ section{
 }
 .menu ul li a {
     display: block;
-    color: #FFFFFF;
+    color: #000;
     padding: 10px 15px;
     text-decoration: none;
 
@@ -48,11 +64,60 @@ section{
 }
 /**/
 
-.main{
-    
+/*primeira secao(ajuste de conteudo)*/
+section{
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
+    justify-content: center;
 }
-.expo{
-    margin: 15px;
-    width: 45vh;
+section .art-container{
+    display: flex;
+    margin: 100px;
 }
+
+section .art-container .art-box{
+    margin: 20px;
+    padding:20px;
+    transition: box-shadow .3s;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 10px;
+    border: 1px solid #000B33;
+    align-items: center;
+}
+
+.art-box:hover {
+    box-shadow: 0 0 60px rgb(255, 0, 0); 
+}
+
+@media (max-width: 900px){
+    section h1{
+      font-size: 2rem;
+      text-align: center;
+    }
+    section .art-container{
+      flex-direction: column;
+    }
+  }
+section .art-container img{
+    max-width: 200px;
+}
+section .art-box p{
+    text-align: center;
+}
+
+.main{
+    position: relative;
+}
+
+.topo{
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+.more{
+    text-align: center;
+    
+}
+
