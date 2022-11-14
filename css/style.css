@@ -1,0 +1,58 @@
+/*Css base */
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*menu*/
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: #666666;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}/**/
+
+/*divs principais*/
+.main{
+    display: flex;
+    align-items: center;
+    
+    
+
+
+}
+.divA{
+    border: 2px solid black;
+    width: 32%;
+    height: 91vh;
+    margin-left: 10px;
+    padding: 20px;
+    
+}
+.expo{
+    border: 2px solid red;
+    width: 32%;
+    padding: 20px;
+    height: 91vh;
+}
+.divC{
+    border: 2px solid purple;
+    width: 32%;
+    margin-right: 10px;
+    padding: 20px;
+    height: 91vh;
+}
