@@ -24,6 +24,10 @@ section .art-container .art-box h3{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+.topo h3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 /*menu*/
@@ -86,13 +90,28 @@ section .art-container .art-box{
     margin: 20px;
     padding:20px;
     transition: box-shadow .3s;
-    width: 20vw;
+    width: 250px;
     height: 40vh;
     border-radius: 10px;
     border: 1px solid #000B33;
     align-items: center;
     margin-bottom: 50px;
 }
+
+#destaque_1{
+    background-image: url(../css/imgs/image2a.png);
+    background-size: 170%;
+
+}
+#destaque_2{
+    background-image: url(../css/imgs/image7.png);
+    background-size: 100%;
+}
+#destaque_3{
+    background-image: url(../css/imgs/image9.png);
+    background-size: 150%;
+}
+
 
 /*.art-box:hover {
     box-shadow: 0 0 60px #e8aa0075; 
@@ -114,6 +133,7 @@ section .art-box p{
 
 
 .topo{
+    margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
 
