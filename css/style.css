@@ -35,24 +35,5 @@ section{
 
 
 }
-.divA{
-    border: 2px solid black;
-    width: 32%;
-    height: 91vh;
-    margin-left: 10px;
-    padding: 20px;
-    
-}
-.expo{
-    border: 2px solid red;
-    width: 32%;
-    padding: 20px;
-    height: 91vh;
-}
-.divC{
-    border: 2px solid purple;
-    width: 32%;
-    margin-right: 10px;
-    padding: 20px;
-    height: 91vh;
+
 }
