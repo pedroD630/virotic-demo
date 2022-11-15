@@ -96,20 +96,39 @@ section .art-container .art-box{
     border: 1px solid #000B33;
     align-items: center;
     margin-bottom: 50px;
+    transition: transform .2s;
+}
+section .art-container .art-box:hover{
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 #destaque_1{
     background-image: url(../css/imgs/image2a.png);
     background-size: 170%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 #destaque_2{
     background-image: url(../css/imgs/image7.png);
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #destaque_3{
     background-image: url(../css/imgs/image9.png);
     background-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#destaque_1 a, #destaque_2 a, #destaque_3 a{
+    text-decoration: none;
 }
 
 
