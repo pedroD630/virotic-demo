@@ -114,16 +114,8 @@ section .art-container {
 	margin-top: 10px;
 	justify-content: center;
 	align-items: center;
+	
 }
-
-section .art-slider {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
-	justify-content: center;
-	align-items: center;
-}
-
 
 section .art-container .art-box {
 	margin: 20px;
@@ -262,6 +254,9 @@ section .art-box p {
 	text-align: center;
 	margin-bottom: 50px;
 
+}
+#gallery .topo{
+	margin-bottom: 150px;
 }
 
 .more {
