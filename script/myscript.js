@@ -7,3 +7,4 @@ let db = document.getElementById("div2");
 let dc = document.getElementById("div3");
 
 da.style.color = 'red';
+
