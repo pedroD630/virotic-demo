@@ -138,9 +138,13 @@ section h1 {
   margin-bottom: 8px;
   vertical-align: middle;
   max-width: 400px;
+  width: 100%;
+  height: auto;
 }
 #col1,
-#col2 {
+#col2,
+#quadro,
+#autor {
   margin: 10px;
 }
 
@@ -185,7 +189,7 @@ section h1 {
   scrollbar-width: none;
 }
 
-.slider {
+/*.slider {
   max-width: 100vw;
   display: flex;
   margin-bottom: 25px;
@@ -205,9 +209,9 @@ section h1 {
 }
 .slider .card #triunfo {
   max-width: 400px;
-}
+}*/
 
-#advise {
+#advise, .link-ref {
   font-size: 70%;
 }
 /*.card .content .title{
@@ -225,32 +229,29 @@ section h1 {
 	text-align: justify;
 	margin: 10px 0;
   }*/
-#bac-micro {
+#img1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-#bac-micro img {
+#img1 img {
   margin-right: 5px;
   border-radius: 5px;
-  width: 100%;
-  height: auto;
 }
 
-#img-destaque {
+#img2{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#img-destaque img {
-  width: 100%;
-  height: auto;
+#img2 img {
+
   margin-bottom: 10px;
   border-radius: 5px;
 }
 #apeste{
-  max-width: 200px;
+  max-width: 300px;
 }
 .more {
   text-align: center;
@@ -285,8 +286,8 @@ section h1 {
 }
 
 .img-popup img {
-  max-width: 900px;
-  width: 100%;
+  width: auto;
+  height: 90vh;
   opacity: 0;
   transform: translateY(-100px);
   -webkit-transform: translateY(-100px);
