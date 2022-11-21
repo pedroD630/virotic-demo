@@ -85,6 +85,8 @@ section h1 {
 #home .topo {
   text-align: center;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 #home .main {
   max-width: 100%;
@@ -140,6 +142,8 @@ section h1 {
   max-width: 400px;
   width: 100%;
   height: auto;
+  border: 2px solid #e8aa00;
+  border-radius: 5px;
 }
 #col1,
 #col2,
@@ -155,7 +159,7 @@ section h1 {
     max-width: 45%;
   }
   #autor {
-    align-items: flex-end;
+    align-items: center;
   }
 }
 @media (min-width: 800px) {
@@ -236,8 +240,8 @@ section h1 {
   text-align: center;
 }
 #img1 img {
-  margin-right: 5px;
   border-radius: 5px;
+  
 }
 
 #img2{
@@ -250,7 +254,7 @@ section h1 {
   margin-bottom: 10px;
   border-radius: 5px;
 }
-#apeste{
+#apeste, #automunch, #edvard{
   max-width: 300px;
 }
 .more {
@@ -310,7 +314,7 @@ section h1 {
 
 .close-btn .bar {
   height: 4px;
-  background: #333;
+  background: #e8aa00;
 }
 
 .close-btn .bar:nth-child(1) {
