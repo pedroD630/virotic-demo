@@ -249,6 +249,9 @@ section h1 {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+#apeste{
+  max-width: 200px;
+}
 .more {
   text-align: center;
   margin-bottom: 40px;
