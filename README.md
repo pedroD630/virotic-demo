@@ -1,6 +1,7 @@
 # virotic-demo
 
 <h2>Sobre o projeto</h2>
+<img scr="">
 <p>Projeto desenvolvido para a Mostra de Tecnologia da FUNEC ( Fundação de Ensino de COntagem ) Unidade Riacho, no curso técnico de informática</p>
 <p>Projeto programado por mim, mas conteúdo, escolha da paleta de cores e parte de gerenciamento feito por demais participantes do grupo</p>
 <p>Programado com HTML, estilizado com CSS e animações feitas com JS puro</p>
